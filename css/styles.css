@@ -1,0 +1,44 @@
+.jumbotron >h1 {
+  font-size:28px;
+
+}
+h1 {
+  margin-left: 38%;
+  margin-right: 32%;
+
+}
+img {
+  padding-left:35%;
+}
+
+#header {
+  background-image: url(../images/backgrounds/landing.jpg);
+}
+
+#header2 {
+  margin-top: -30px;
+}
+
+#first {
+  background-image: url(../images/foodtop/breakfast.jpg);
+  height: 200px;
+}
+
+#second{
+  background-image: url(../images/foodtop/lunch.jpg);
+  height: 200px;
+}
+
+#third {
+  background-image: url(../images/foodtop/dinner.jpg);
+  height: 200px;
+}
+
+#split1 {
+  height: 100px;
+}
+
+#split2{
+  height: 100px;
+  background-color: orange;
+}
