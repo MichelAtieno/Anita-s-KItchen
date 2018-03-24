@@ -16,6 +16,10 @@ img {
 }
 
 #header2 {
+  margin-top: 5%;
+}
+
+#row1 {
   margin-top: -30px;
 }
 
@@ -41,4 +45,15 @@ img {
 #split2{
   height: 100px;
   background-color: orange;
+}
+
+#split3 {
+  height: 50%;
+}
+
+#split4 {
+  height: 50%;
+}
+
+#thick {
 }
