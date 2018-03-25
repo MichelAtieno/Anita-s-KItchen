@@ -8,7 +8,10 @@ h1 {
 
 }
 img {
-  padding-left:35%;
+}
+
+h5 {
+  font-weight: bold;
 }
 
 #header {
@@ -17,6 +20,16 @@ img {
 
 #header2 {
   margin-top: 5%;
+}
+
+#header3 {
+  margin-top: 40px;
+}
+
+#header4 {
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  margin-top: 40px;
+  height: 400px;
 }
 
 #row1 {
@@ -48,12 +61,46 @@ img {
 }
 
 #split3 {
-  height: 50%;
+  background-image: url(../images/fastFood1.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 545px;
 }
 
 #split4 {
-  height: 50%;
+  background-image: url(../images/fastFood2.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 545px;
+}
+
+#split5 {
+  background-image: url(../images/drink1.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 320px;
+}
+
+#split6 {
+  background-image: url(../images/drink2.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 320px;
 }
 
 #thick {
+  box-sizing: border-box;
+  width: 50%;
+  border: 20px solid white;
+  content: 200px 200px;
+  box-shadow: 1px 1px 1px 1px grey;
+
+}
+#thick1 {
+  display: flex;
+  box-sizing: border-box;
+  border: 20px solid white;
+  box-shadow: 1px 1px 1px 1px grey;
+
+
 }
