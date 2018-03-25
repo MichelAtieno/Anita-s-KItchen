@@ -10,18 +10,34 @@
   <body>
      <div class="container">
       <div class="jumbotron" id="header">
-       <img src="images/logoBig.png" alt="logo of Anita's Kitchen">
-       <h1>
-        We Provide The Best Food At The Right Price
-       </h1>
-     </div>
-   <div class="row" id="row1">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+       </div>
+       <div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Contacts<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Menu</a></li>
+            </ul>
+          </div>
+          <img src="images/logoBig.png" alt="logo of Anita's Kitchen">
+        <h1>
+         We Provide The Best Food At The Right Price
+        </h1>
+      </div>
+     <div class="row" id="row1">
      <div class="col-md-3" id="split">
-       <div class="row" id="split1">happy hour </div>
-       <div class="row" id="split2">party time </div> </div>
-     <div class="col-md-3" id="first">BREAKFAST</div>
-     <div class="col-md-3" id="second">LUNCH</div>
-     <div class="col-md-3" id="third">DINNER</div>
+       <div class="row" id="split1"><p>Happy Hour</p> </div>
+       <div class="row" id="split2"><p>Party Time</p> </div>
+     </div>
+     <div class="col-md-3" id="first"><p>Breakfast</p></div>
+     <div class="col-md-3" id="second"><p>Lunch</p></div>
+     <div class="col-md-3" id="third"><p>Dinner</p></div>
   </div>
 
         <div class="row" id="header2">
@@ -39,7 +55,7 @@
          <p>
            orem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ligula felis. Pellentesque eget est non ipsum congue sodales. Aenean consectetur fermentum eleifend. Donec id fringilla massa. Nulla facilisi. Cras interdum rutrum tellus, id dapibus quam luctus eget. Ut volutpat ipsum nunc. Maecenas aliquet varius
          </p>
-         <button class="btn btn-default">View Gallery</button>
+           <button class="btn btn-default" "btn-lg"> View Gallery <span class="glyphicon glyphicon-arrow-right"></span> </button>
      </div>
    </div>
 
@@ -51,7 +67,7 @@
         diam in euismod. Vivamus iaculis lacus at elit sollicitudin, vel porta eros interdum. Donec ut congue justo, at pharetra erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce tincidunt eros id sodales ultricies. Nullam et eleifend dolor. Sed hendrerit ex quis feugiat euismod. Mauris luctus non libero a ornare.
         Donec semper accumsan dui id cursus.
       </p>
-      <button class="btn btn-default">View Gallery</button>
+      <button class="btn btn-default" "btn-lg">View Gallery <span class="glyphicon glyphicon-arrow-right"></span></button>
     </div>
     <div class="col-md-6">
        <div class="row" id="thick1">
@@ -64,21 +80,20 @@
      </div>
 
      <div class="jumbotron" id="header4">
-       <div class="container" id="header5">
-       <div class="row" id="split7">
-         <div class=col-md-3>
-           <button><a href="">Fast Food</a></button>
-           </div>
-            <div class=col-md-3>
-             <button><a href="">Drinks</a></button>
-           </div>
-            <div class=col-md-3>
-            <button><a href="">Chicken</a></button>
-           </div>
-              <div class=col-md-3>
-             <button><a href="">Rice</a></button>
-             </div>
-        </div>
+       <div class="row">
+         <div class="container">
+         <nav class="navbar navbar-default" "navbar-fixed-top">
+          <div>
+            <ul class="nav navbar-nav">
+               <li><button class="btn" "btn-default" "btn-lg" "active"><a href="#">Fast Food</a></button></li>
+               <li><button class="btn" "btn-default" "btn-lg"><a href="#">Drinks</a></button></li>
+               <li><button class="btn" "btn-default" "btn-lg"><a href="#">Chicken</a></button></li>
+               <li><button class="btn" "btn-default" "btn-lg"><a href="#">Rice</a></button></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
         <div class="row">
           <div class="col-md-4" id="split8">
           </div>
@@ -88,12 +103,15 @@
           </div>
         </div>
       </div>
-     </div>
-
-     <div class=row>
        <div class="col-md-6">
-          <h4>Our Happy Customers</h4>
+           <h4>Our Happy Customers</h4>
+           <span class="glyphicon glyphicon-chevron-left"></span>
+           <img class="img-responsive"src="images/customers/p1.png" alt="Customer">
+           <img class="img-responsive"src="images/customers/p2.png" alt="Customer">
+           <img class="img-responsive"src="images/customers/p3.png" alt="Customer">
+           <span class="glyphicon glyphicon-chevron-right"></span>
        </div>
+       <hr>
        <div class="col-md-6">
          <h4>About Menu</h4>
          <p>
@@ -101,9 +119,8 @@
            ed egestas non augue id convallis. Aenean sodales mi in nulla hendrerit congue. Pellentesque euismod velit magna, nec viverra odio molestie ut. Maecenas mollis elit ullamcorper pharetra cursus.
          </p>
        </div>
-     </div>
 
-     <div class="row">
+     <div class="row" id="header6">
        <div class="col-md-12" id="split11">
          <p>
            Get our daily food items delivered to your email
@@ -114,13 +131,15 @@
     </div>
     <div class="row">
      <div class="col-md-12" id="split12">
-      <img class="img-responsive" src="images/footerlogos/logo_white.png" alt="logo">
-        <p>MENU</p>
-        <p>Thats what we are</p>
-      <img class="img-responsive" src="images/footerlogos/facebook.png" alt="facebook">
-      <img class="img-responsive" src="images/footerlogos/twitter.png" alt="twitter">
-      <img class="img-responsive" src="images/footerlogos/pinterest.png" alt="pinterest">
-      <p>2016 Menu Restaurant</p>
+        <p>
+          <img class="img-responsive" src="images/footerlogos/logo_white.png" alt="logo">
+          MENU
+        </p>
+       <p>Thats what we are</p>
+        <img class="img-responsive" src="images/footerlogos/facebook.png" alt="facebook">
+        <img class="img-responsive" src="images/footerlogos/twitter.png" alt="twitter">
+        <img class="img-responsive" src="images/footerlogos/pinterest.png" alt="pinterest">
+         <p>2016 Menu Restaurant</p>
    </div>
    </div>
  </div>

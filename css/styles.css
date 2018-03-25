@@ -1,21 +1,29 @@
 .jumbotron >h1 {
-  font-size:28px;
-
+  font-size:28px
 }
+
 h1 {
   margin-left: 38%;
-  margin-right: 32%;
+  margin-right: 33%;
 
 }
 img {
+  margin-left: 35%;
 }
 
 h5 {
   font-weight: bold;
 }
+ p{
+   text-align: center;
+ }
+
 
 #header {
   background-image: url(../images/backgrounds/landing.jpg);
+  margin-left: 0%;
+  margin-right: 0%;
+
 }
 
 #header2 {
@@ -37,8 +45,14 @@ h5 {
   border: 20px solid yellow;
 }
 
+#header6 {
+  margin-top: 75px;
+}
+
 #row1 {
   margin-top: -30px;
+  margin-left: 5px;
+  margin-right: 1px;
 }
 
 #first {
@@ -58,6 +72,10 @@ h5 {
 
 #split1 {
   height: 100px;
+  font-weight: bold;
+  margin-right: 20%;
+  margin-left:20%;
+  text-align: justify;
 }
 
 #split2{
@@ -115,7 +133,7 @@ h5 {
   background-image: url(../images/fastfood/chickenPizza.jpg);
   background-size: cover;
   flex: 1;
-  height: 200px;
+  height: 250px;
 }
 
 #split11 {
