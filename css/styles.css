@@ -32,6 +32,11 @@ h5 {
   height: 400px;
 }
 
+#header5 {
+  box-sizing: border-box;
+  border: 20px solid yellow;
+}
+
 #row1 {
   margin-top: -30px;
 }
@@ -63,15 +68,15 @@ h5 {
 #split3 {
   background-image: url(../images/fastFood1.jpg);
   background-size: cover;
-  height: 200px;
-  width: 545px;
+  height:200px;
+  width:545px;
 }
 
 #split4 {
   background-image: url(../images/fastFood2.jpg);
   background-size: cover;
-  height: 200px;
-  width: 545px;
+  height:200px;
+  width:545px;
 }
 
 #split5 {
@@ -88,6 +93,43 @@ h5 {
   width: 320px;
 }
 
+#split7 {
+  display: flex;
+}
+
+#split8 {
+  background-image: url(../images/fastfood/beefBurger.jpg);
+  background-size: cover;
+  flex: 1;
+  height: 200px;
+}
+
+#split9 {
+  background-image: url(../images/fastfood/chickenBurger.jpg);
+  background-size: cover;
+  flex: 1;
+  height: 200px;
+}
+
+#split10 {
+  background-image: url(../images/fastfood/chickenPizza.jpg);
+  background-size: cover;
+  flex: 1;
+  height: 200px;
+}
+
+#split11 {
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  background-size: cover;
+  height: 250px;
+  font: green;
+}
+
+#split12 {
+  background-color: red;
+  height: 250px;
+}
+
 #thick {
   box-sizing: border-box;
   width: 50%;
@@ -101,6 +143,10 @@ h5 {
   box-sizing: border-box;
   border: 20px solid white;
   box-shadow: 1px 1px 1px 1px grey;
+}
 
-
+#list {
+  box-sizing: border-box;
+  background-color: grey;
+  font: black;
 }
