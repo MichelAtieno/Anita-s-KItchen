@@ -8,23 +8,30 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-     <div class="container">
+     <div class="container-fluid">
       <div class="jumbotron" id="header">
-       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-       </div>
-       <div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Contacts<span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Menu</a></li>
-            </ul>
+         <nav class="navbar">
+          <span class-"open-slide">
+            <a href="#" onclick="openSlideMenu()">
+              <svg width="40" height="40">
+                <path d="M0,5 30,5" stroke="#fff"
+                stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#fff"
+                stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#fff"
+                stroke-width="5"/>
+              </svg>
+            </a>
+          </span>
+           </nav>
+
+          <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#">Contacts</a>
+            <a href="#">Events</a>
+            <a href="#">Menu</a>
           </div>
+
           <img src="images/logoBig.png" alt="logo of Anita's Kitchen">
         <h1>
          We Provide The Best Food At The Right Price
@@ -35,9 +42,9 @@
        <div class="row" id="split1"><p>Happy Hour</p> </div>
        <div class="row" id="split2"><p>Party Time</p> </div>
      </div>
-     <div class="col-md-3" id="first"><p>Breakfast</p></div>
-     <div class="col-md-3" id="second"><p>Lunch</p></div>
-     <div class="col-md-3" id="third"><p>Dinner</p></div>
+     <div class="col-md-3" id="first"><p><a href="#">Breakfast</a></p></div>
+     <div class="col-md-3" id="second"><p><a href="#">Lunch</p></a></div>
+     <div class="col-md-3" id="third"><p><a href="#">Dinner</p></a></div>
   </div>
 
         <div class="row" id="header2">
@@ -55,7 +62,9 @@
          <p>
            orem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ligula felis. Pellentesque eget est non ipsum congue sodales. Aenean consectetur fermentum eleifend. Donec id fringilla massa. Nulla facilisi. Cras interdum rutrum tellus, id dapibus quam luctus eget. Ut volutpat ipsum nunc. Maecenas aliquet varius
          </p>
-           <button class="btn btn-default" "btn-lg"> View Gallery <span class="glyphicon glyphicon-arrow-right"></span> </button>
+         <button class="btn btn-default hotel">
+         View Gallery
+       </button
      </div>
    </div>
 
@@ -67,7 +76,6 @@
         diam in euismod. Vivamus iaculis lacus at elit sollicitudin, vel porta eros interdum. Donec ut congue justo, at pharetra erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce tincidunt eros id sodales ultricies. Nullam et eleifend dolor. Sed hendrerit ex quis feugiat euismod. Mauris luctus non libero a ornare.
         Donec semper accumsan dui id cursus.
       </p>
-      <button class="btn btn-default" "btn-lg">View Gallery <span class="glyphicon glyphicon-arrow-right"></span></button>
     </div>
     <div class="col-md-6">
        <div class="row" id="thick1">
@@ -105,11 +113,9 @@
       </div>
        <div class="col-md-6">
            <h4>Our Happy Customers</h4>
-           <span class="glyphicon glyphicon-chevron-left"></span>
            <img class="img-responsive"src="images/customers/p1.png" alt="Customer">
            <img class="img-responsive"src="images/customers/p2.png" alt="Customer">
            <img class="img-responsive"src="images/customers/p3.png" alt="Customer">
-           <span class="glyphicon glyphicon-chevron-right"></span>
        </div>
        <hr>
        <div class="col-md-6">
