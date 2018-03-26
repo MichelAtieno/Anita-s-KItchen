@@ -14,10 +14,15 @@ img {
 
 h5 {
   font-weight: bold;
+  font-size: 20px;
 }
 
  p {
    text-align: center;
+ }
+
+ h2 {
+   font-weight: bold;
  }
 
 
@@ -32,6 +37,7 @@ h5 {
 
 #header2 {
   margin-top: 5%;
+  margin-bottom: 20;
 }
 
 #header3 {
@@ -77,6 +83,10 @@ h5 {
   font-weight: bold;
 }
 
+#left {
+  margin: auto;
+}
+
 #split {
   display: flex;
   flex-direction: column;
@@ -84,27 +94,28 @@ h5 {
 
 #split1 {
   height: 100px;
+  background-color: grey;
   font-weight: bold;
   margin: auto;
 }
 
 #split2{
   height: 100px;
-  background-color: orange;
+  background-color:#F15A29;
 }
 
 #split3 {
   background-image: url(../images/fastFood1.jpg);
   background-size: cover;
-  height:200px;
-  width:545px;
+  height:165px;
+  width:520px;
 }
 
 #split4 {
   background-image: url(../images/fastFood2.jpg);
   background-size: cover;
-  height:200px;
-  width:545px;
+  height:165px;
+  width:520px;
 }
 
 #split5 {
@@ -154,23 +165,25 @@ h5 {
 }
 
 #split12 {
-  background-color: red;
+  background-color: #F15A29;
   height: 250px;
 }
 
 #thick {
   box-sizing: border-box;
-  width: 50%;
   border: 20px solid white;
-  content: 200px 200px;
   box-shadow: 1px 1px 1px 1px grey;
+  margin-left:20px;
+  height:370px;
+  width:560px;
 
 }
 #thick1 {
   display: flex;
-  box-sizing: border-box;
+  box-sizing:border-box;
   border: 20px solid white;
   box-shadow: 1px 1px 1px 1px grey;
+  margin-right: 20px;
 }
 
 #list {
@@ -201,4 +214,16 @@ h5 {
 
 .side-nav a:hover {
   color: #fff;
+}
+
+.side-nav .btn-close{
+  top:0;
+  margin-left: 50px;
+}
+
+#main{
+  transition: margin-left 0.5s;
+  padding: 20px;
+  overflow: hidden;
+  width:50%;
 }
