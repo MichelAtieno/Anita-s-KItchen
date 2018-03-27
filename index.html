@@ -4,8 +4,6 @@
     <title> Anita's Kitchen</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
   </head>
   <body>
      <div class="container-fluid">
@@ -106,7 +104,7 @@
         <div class="row" id="menu1">
           <div class="panel-body">
             <a href="#">
-            <!-- <span class="left-arrow glyphicon glyphicon-chevron-left"></span>  -->
+            <span class="left-arrow glyphicon glyphicon-chevron-left"></span>
             </a>
           <div class="col-md-4" id="split8">
           </div>
@@ -115,17 +113,37 @@
           <div class="col-md-4" id="split10">
           </div>
           <a href="#">
-          <!--  <span class="right-arrow glyphicon glyphicon-chevron-right"></span>  -->
+          <span class="right-arrow glyphicon glyphicon-chevron-right"></span>
           </a>
         </div>
       </div>
     </div>
    </div>
-       <div class="col-md-6">
+
+    <div class="header5">
+     <div class="row" id="row2">
+      <div class="col-md-6" id="customers">
            <h4>Our Happy Customers</h4>
+           <h1 id="client"> George Richard </h1>
+             <p>
+                Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them!
+             </p>
+             <div class="col-md-4">
+               <a href="#">
+                 <span class="left-arrow2 glyphicon glyphicon-chevron-left"></span>
+               </a>
            <img class="img-responsive"src="images/customers/p1.png" alt="Customer">
+             </div>
+            <div class="col-md-4">
            <img class="img-responsive"src="images/customers/p2.png" alt="Customer">
-           <img class="img-responsive"src="images/customers/p3.png" alt="Customer">
+         </div>
+            <div class="col-md-4">
+             <img class="img-responsive"src="images/customers/p3.png" alt="Customer">
+             <a href="#">
+                <span class="right-arrow2 glyphicon glyphicon-chevron-right"></span>
+              </a>
+           </div>
+
        </div>
        <hr>
        <div class="col-md-6">
@@ -135,29 +153,53 @@
            ed egestas non augue id convallis. Aenean sodales mi in nulla hendrerit congue. Pellentesque euismod velit magna, nec viverra odio molestie ut. Maecenas mollis elit ullamcorper pharetra cursus.
          </p>
        </div>
+     </div>
+   </div>
 
-     <div class="row" id="header6">
-       <div class="col-md-12" id="split11">
-         <p>
+     <div class="header6">
+       <p id="info">
            Get our daily food items delivered to your email
          </p>
-         <input> Your email</input>
-         <button>Subscribe</button>
+         <form id="form">
+           <div class="row" id="info1">
+             <div class="col-md-6">
+                <input id="email" type="text" placeholder="Your email">
+             </div>
+             <div class="col-md-6">
+                    <input id="submit" type="Submit" value="Subscribe">
+             </div>
+           </div>
+       </form>
      </div>
-    </div>
-    <div class="row">
-     <div class="col-md-12" id="split12">
-        <p>
+
+   <div class="header7">
+    <div class="row" id="media">
+     <div class="col-md-6">
           <img class="img-responsive" src="images/footerlogos/logo_white.png" alt="logo">
+       </div>
+        <div class="col-md-6">
+        <h6 id="media1">
           MENU
-        </p>
+        </h6>
+      </div>
+    </div>
        <p>Thats what we are</p>
-        <img class="img-responsive" src="images/footerlogos/facebook.png" alt="facebook">
+       <div class="row" id="media2">
+        <div class="col-md-4">
+         <img class="img-responsive" src="images/footerlogos/facebook.png" alt="facebook">
+       </div>
+       <div class="col-md-4">
         <img class="img-responsive" src="images/footerlogos/twitter.png" alt="twitter">
+      </div>
+      <div class="col-md-4">
         <img class="img-responsive" src="images/footerlogos/pinterest.png" alt="pinterest">
-         <p>2016 Menu Restaurant</p>
+      </div>
+      </div>
+         <p id="foot">2016 Menu Restaurant</p>
    </div>
-   </div>
- </div>
+  </div>
+
+   <script src="js/jquery-3.3.1.js"></script>
+   <script src="js/scripts.js"></script>
   </body>
 </html>
