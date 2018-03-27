@@ -158,6 +158,7 @@ h5 {
 
 #left {
   margin: auto;
+  text-align: justify;
 }
 
 #split {
@@ -350,4 +351,24 @@ h5 {
 
 .header7 >p {
   font-size: 15px;
+}
+
+#first >p{
+  padding-top: 30%;
+}
+
+#second >p{
+  padding-top: 30%;
+}
+
+#third >p{
+  padding-top: 30%;
+}
+
+#split1 >p{
+  padding-top: 50%;
+}
+
+#split2 >p{
+  padding-top: 10%;
 }
