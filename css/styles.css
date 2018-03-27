@@ -279,6 +279,7 @@ h5 {
 }
 
 .side-nav {
+  display: none;
   height:70%;
   width:25%;
   position:fixed;
@@ -316,7 +317,7 @@ h5 {
 
 .navbar {
   overflow: hidden;
-  height:63px
+  height:50px
 }
 
 #section3 >ul{
