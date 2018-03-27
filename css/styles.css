@@ -44,12 +44,34 @@ h5 {
   margin-top: 40px;
 }
 
-#header4 {
+.header4 {
   background-image: url(../images/backgrounds/foodsBg.jpg);
-  margin-top: 40px;
-  height: 400px;
+  margin-top: 10%;
+  margin-left: -10%;
+  margin-right: -13%;
+  margin-bottom: 5%;
+  padding: 15% 15% 15% 15%;
 }
 
+#menu {
+  color: black;
+  background-color: lightgrey;
+  font-family: 'Alegreya', serif;
+  justify-content: center;
+}
+
+#fastfood {
+  color: #F15A29;
+}
+
+#menu1{
+  margin-top: 5px;
+}
+
+#panel1 {
+  padding: 50% 50% 50% 50%;
+  margin: 20%  20% 20%  20%;
+}
 #header5 {
   box-sizing: border-box;
   border: 20px solid yellow;
@@ -154,7 +176,7 @@ h5 {
   background-image: url(../images/fastfood/chickenPizza.jpg);
   background-size: cover;
   flex: 1;
-  height: 250px;
+  height: 200px;
 }
 
 #split11 {
@@ -226,4 +248,20 @@ h5 {
   padding: 20px;
   overflow: hidden;
   width:50%;
+}
+
+.navbar {
+  overflow: hidden;
+  height:63px
+}
+
+#section3 >ul{
+  background-color: grey;
+  float:left;
+  display:block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:17px;
 }
