@@ -372,3 +372,11 @@ h5 {
 #split2 >p{
   padding-top: 10%;
 }
+
+#row2 {
+  box-sizing: border-box;
+  border: 20px solid white;
+  box-shadow: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
