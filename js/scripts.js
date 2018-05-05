@@ -1,13 +1,5 @@
-function openSlideMenu(){
-  document.getElementById('side-menu').style.width='250px';
-  document.getElementById('main').style.marginLeft='250px';
-}
+$('.menu-toggle').click(function() {
 
-function closeSlideMenu(){
-  document.getElementById('side-menu').style.width='0';
-  document.getElementById('main').style.marginLeft='0';
-}
-
-$(".navbar").click(function(){
-    $(".side-nav").toggle();
-});
+   $('.site-nav').toggleClass('site-nav--open');
+   $('.menu-toggle').toggleClass('open');
+})

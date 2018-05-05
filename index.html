@@ -2,43 +2,36 @@
  <html>
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116555116-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116555116-1"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
 
-  gtag('config', 'UA-116555116-1');
-</script>
+       gtag('config', 'UA-116555116-1');
+    </script>
 
     <title> Anita's Kitchen</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://getbootstrap.com/docs/3.3/components/" rel="stylesheet">
   </head>
+
+
   <body>
      <div class="container-fluid">
       <div class="jumbotron" id="header">
-         <nav class="navbar">
-          <span class-"open-slide">
-            <a href="#" onclick="openSlideMenu()">
-              <svg width="40" height="40">
-                <path d="M0,5 30,5" stroke="#fff"
-                stroke-width="5"/>
-                <path d="M0,14 30,14" stroke="#fff"
-                stroke-width="5"/>
-                <path d="M0,23 30,23" stroke="#fff"
-                stroke-width="5"/>
-              </svg>
-            </a>
-          </span>
+           <nav class="site-nav">
+             <ul>
+               <li><a href="">Contacts</a></li>
+               <li><a href="">Events</a></li>
+               <li><a href="">Menu</a></li>
+             </ul>
            </nav>
 
-          <div id="side-menu" class="side-nav">
-            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-            <a href="#">Contacts</a>
-            <a href="#">Events</a>
-            <a href="#">Menu</a>
-          </div>
+           <div class="menu-toggle">
+             <div class="hamburger"></div>
+           </div>
 
           <img src="images/logoBig.png" alt="logo of Anita's Kitchen">
         <h1>
@@ -115,7 +108,6 @@
           <div class="panel-body">
           <!--  <div class="slider-outer">
             <img class="img-responsive" src="images/left-arrow.png" class="prev" alt="Prev"> -->
-
           <div class="col-md-4" class="active" id="split8">
           </div>
           <div class="col-md-4" id="split9">
@@ -139,9 +131,10 @@
                 Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them!
              </p>
              <div class="col-md-4">
-               <a href="#">
-                 <!--<span class="left-arrow2 glyphicon glyphicon-chevron-left"></span> -->
-               </a>
+               <!-- <a href="#">
+                <span class="left-arrow2 glyphicon glyphicon-chevron-left"></span>
+               </a>-->
+               <button class="btn-default"><span class="glyphicon glyphicon-chevron-left"></span></button>
            <img class="img-responsive"src="images/customers/p1.png" alt="Customer">
              </div>
             <div class="col-md-4">
